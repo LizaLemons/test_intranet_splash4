@@ -1,0 +1,85 @@
+#background {
+	background-image:     
+	 linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+     ),
+     url(new_york_city_night_lights-wallpaper-1280x1024.jpg);
+	background-size: cover;
+}
+
+#overlay {
+/*	width: 100%; */
+	height: 1115px;
+    /*background:rgba(0,0,0, 0.6);*/
+    color: white;
+}
+
+.content-container {
+	border: 1px solid white;
+	margin-top: 15em;
+	padding: 15px;
+	background-color: rgba(0,0,0,0.6);
+}
+.content-container #isda {
+	text-align: center;
+}
+
+
+
+
+/* ************ */
+/* Sign in form */
+/* ************ */
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-radius: 0px;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-radius: 0;
+}
+#sign-in-btn {
+	border-radius: 0;
+}
+
+.remember-me {
+	font-size: 14px;
+}
+.checkbox {
+	/*border: 1px solid white;*/
+}
+
+
+/* ****************** */
+/* Legal disclaimers */
+/* **************** */
+#legal-text {
+	font-size: 16px;
+	padding: 20px;
+	line-height: 90%;
+}
